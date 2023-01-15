@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: #e5e5e5;
+    border: 1px solid green;
+}
+
+nav{
+    float: left;
+    width: 20%;
+}

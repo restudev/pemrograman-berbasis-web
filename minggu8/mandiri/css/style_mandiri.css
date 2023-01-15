@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+header {
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(255, 0, 0);
+    transition: all 0.5s ease;
+}
+
+.content {   
+    float: left;
+    width: 100%;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding-left: 10px;
+}
+
+.img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px;
+}
+
+.card {
+     background-color: white;
+     padding: 10px;
+     margin-top: 10px;
+}
+.widget{
+     background-color: white;
+     padding: 10px;
+     margin-top: 10px;   
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.footer {
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    background: white;
+    margin-top: 20px;
+    display: inline-block;
+    float: left;    
+}
+
+
+@media (max-width: 800px) {
+    .content, .sidebar,.footer{   
+        width: 100%;
+        padding: 0;
+    }     
+}
+
+@media (max-width: 400px) {
+    .nav a {
+        float: none;
+        width:100%;
+    }
+}
